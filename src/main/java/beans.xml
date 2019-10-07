@@ -5,6 +5,9 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
         
-<bean id= "sim" class= "com.SpringBoot.IOC.Vodafone"></bean>
+<bean id= "student" class= "com.SpringDependencyInjection.Student">
+<property name="StudentName" value="Masarat"></property>
+</bean>
+
 
 </beans>
